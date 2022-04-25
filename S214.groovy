@@ -1,0 +1,4 @@
+setImageType('BRIGHTFIELD_H_DAB');
+setColorDeconvolutionStains('{"Name" : "H-DAB modified", "Stain 1" : "Hematoxylin", "Values 1" : "0.738 0.586 0.334", "Stain 2" : "DAB", "Values 2" : "0.263 0.507 0.821", "Background" : " 166 150 130"}');
+selectAnnotations();
+runPlugin('qupath.imagej.detect.cells.PositiveCellDetection', '{"detectionImageBrightfield": "Hematoxylin OD",  "requestedPixelSizeMicrons": 0.5,  "backgroundRadiusMicrons": 10.0,  "medianRadiusMicrons": 1.5,  "sigmaMicrons": 1.5,  "minAreaMicrons": 10.0,  "maxAreaMicrons": 400.0,  "threshold": 0.0,  "maxBackground": 1.0,  "watershedPostProcess": true,  "excludeDAB": false,  "cellExpansionMicrons": 1.0,  "includeNuclei": true,  "smoothBoundaries": true,  "makeMeasurements": true,  "thresholdCompartment": "Cell: DAB OD mean",  "thresholdPositive1": 0.12,  "thresholdPositive2": 0.4,  "thresholdPositive3": 0.6000000000000001,  "singleThreshold": true}');
