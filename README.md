@@ -1,5 +1,5 @@
 # QuPath-Positive-Cell-Identification
-Scripts for identifying cells positive for AT8, PHF1, S214, and Thioflavin S in mice after traumatic brain injury
+Scripts for identifying cells positive for AT8, PHF1, S214, and Thioflavin S in brain sections. 
 
 For use with QuPath version 0.3.0
 
